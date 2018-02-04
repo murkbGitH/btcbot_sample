@@ -7,7 +7,7 @@ class API:
     #初期化
     def __init__(self):
         self.public_api = pybitflyer.API()
-        self.api = pybitflyer.API(api_key="TH8bgpMj9opE1CnzAqEkt9", api_secret="A5lDwm0Lsx8Phav34hiKxi4fuyNAk6CJE2o2TyIR5M8=")
+        self.api = pybitflyer.API(api_key="[YOUR_API_KEY]", api_secret="[YOUR_API_SERCRET]")
         self.product_code = "FX_BTC_JPY"
 
     #注文用のメソッド(price = 0 なら成行)
